@@ -44,4 +44,7 @@ RUN cd ~ ; \
 RUN echo 'alias sf="php app/console"' >> ~/.bashrc
 RUN echo 'alias sf3="php bin/console"' >> ~/.bashrc
 
+# run cimposer as root
+ENV COMPOSER_ALLOW_SUPERUSER 1
+
 WORKDIR /var/www/symfony
