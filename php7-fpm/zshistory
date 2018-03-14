@@ -1,0 +1,48 @@
+: 1520689951:0;ls
+: 1520689954:0;cat script/genDb
+: 1520689964:0;sf doctrine:schema:validate --skip-sync \
+: 1520689966:0;sf doctrine:schema:validate --skip-sync 
+: 1520689973:0;./script/genDb
+: 1520690079:0;sf doctrine:schema:validate --skip-sync 
+: 1520690286:0;./script/genDb
+: 1520691209:0;sfcl
+: 1520691219:0;rm -rf var/cache/*
+: 1520691817:0;sfcl
+: 1520691832:0;chmod -R 777 var/cache var/log
+: 1520693193:0;ll
+: 1520693453:0;exit
+: 1521024126:0;composer install -vvv
+: 1521024152:0;~l
+: 1521024153:0;ls
+: 1521024660:0;sf app:kartokloud:update
+: 1521026015:0;cat /var/www/symfony/jsonData/output/optimized_droplet_8_16.json
+: 1521026043:0;sf app:kartokloud:update
+: 1521026206:0;ne json
+: 1521026252:0;sf app:kartokloud:update
+: 1521026974:0;./script/genDb
+: 1521027007:0;sf app:kartokloud:update
+: 1521027276:0;cat /var/www/symfony/jsonData/output/optimized_droplet_8_16.json
+: 1521027544:0;sf app:kartokloud:update
+: 1521027748:0;./script/genDb
+: 1521027755:0;sf app:kartokloud:update
+: 1521027760:0;exit
+: 1521031728:0;ls
+: 1521031873:0;chmod -R 777 var/cache var/log
+: 1521031884:0;sf debug:router
+: 1521031912:0;composer install -vvv
+: 1521031920:0;rm composer.lock 
+: 1521031923:0;composer install -vvv
+: 1521032089:0;./script/genDb
+: 1521032096:0;sf app:kartokloud:update 
+: 1521032187:0;./script/genDb ; sf app:kartokloud:update
+: 1521032265:0;ls v
+: 1521032267:0;ls var
+: 1521032277:0;./script/genDb
+: 1521033251:0;exit
+: 1521035071:0;./script/genDb
+: 1521035360:0;sfcl ; sfcle
+: 1521035452:0;rm -rf var/cache/*
+: 1521036261:0;ll
+: 1521036264:0;sf app:kartokloud:update 
+: 1521036278:0;./script/genDb
+: 1521043166:0;exit
