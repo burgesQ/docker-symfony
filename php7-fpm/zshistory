@@ -46,3 +46,114 @@
 : 1521036264:0;sf app:kartokloud:update 
 : 1521036278:0;./script/genDb
 : 1521043166:0;exit
+: 1521470398:0;ls
+: 1521470412:0;exit
+: 1521470656:0;ls
+: 1521471323:0;composer req easyadmin
+: 1521471489:0;cd 
+: 1521471491:0;cd .zprezto
+: 1521471493:0;pull
+: 1521471500:0;exit
+: 1521471518:0;cd 
+: 1521471519:0;cd .zprezto
+: 1521471520:0;ls
+: 1521471523:0;git fetch
+: 1521471527:0;gs
+: 1521471533:0;git status
+: 1521471537:0;exit
+: 1521472088:0;ls
+: 1521472089:0;ll
+: 1521472094:0;composer req admin
+: 1521472266:0;composer req maker
+: 1521472460:0;sf doctrine:database:create
+: 1521472467:0;sf doctrine:database:drop --force
+: 1521472472:0;sf doctrine:database:create
+: 1521472483:0;sf make:entity Product
+: 1521472546:0;rm -rf src/Entity/Product.php
+: 1521472548:0;sf make:entity Product
+: 1521472573:0;rm -rf var/cache/*
+: 1521472575:0;sf make:entity Product
+: 1521472597:0;rm src/Repository/ProductRepository.php
+: 1521472599:0;sf make:entity Product
+: 1521472684:0;sf make:migration
+: 1521472692:0;composer req migrations
+: 1521472738:0;sf debug:router
+: 1521472746:0;sf make:migration
+: 1521472771:0;sf doctrine:migrations:migrate
+: 1521472975:0;ls
+: 1521472985:0;chmod -R 777 var/cache var/log
+: 1521473086:0;sf make:controller HomePageController
+: 1521473106:0;ls src/Controller
+: 1521473327:0;ls templates
+: 1521473496:0;chmod -R 777 var/cache var/log
+: 1521473716:0;composer req securoty
+: 1521473719:0;composer req security
+: 1521474178:0;composer require vich/uploader-bundle
+: 1521475705:0;sf cache:clear
+: 1521475716:0;sf doctrine:migrations:migrate
+: 1521475725:0;rm src/Migrations/Version20180319151907.php
+: 1521475776:0;emacs ~/.zpreztorc
+: 1521475789:0;zsh
+: 1521475804:0;sf doctrine:migrations:diff
+: 1521475806:0;ll
+: 1521475842:0;./script/genDb
+: 1521475861:0;rm src/Migrations/Version20180319161004.php
+: 1521475862:0;ll
+: 1521475868:0;sf doctrine:migrations:diff
+: 1521475875:0;sf doctrine:database:drop
+: 1521475882:0;sf doctrine:database:drop --force
+: 1521475884:0;rm src/Migrations/
+: 1521475889:0;sf doctrine:migrations:diff
+: 1521475894:0;sf doctrine:database:create
+: 1521475897:0;sf doctrine:migrations:diff
+: 1521475905:0;sf doctrine:migrations:migrate
+: 1521475910:0;sf doctrine:migrations:migrate --no-interaction
+: 1521475945:0;./script/genDb
+: 1521476999:0;rm -rf var/cache/*
+: 1521477143:0;sf doctrine:database:drop --force
+: 1521477147:0;rm -rf src/Migrations/Version20180319161137.php
+: 1521477150:0;sf doctrine:database:create
+: 1521477154:0;sf doctrine:migrations:migrate --no-interaction
+: 1521477158:0;sf doctrine:migrations:diff
+: 1521477159:0;sf doctrine:migrations:migrate --no-interaction
+: 1521486111:0;l
+: 1521486113:0;cd public
+: 1521486113:0;l
+: 1521486122:0;..
+: 1521486122:0;l
+: 1521486540:0;rm -rf src/Migrations/Version20180319161137.php
+: 1521486542:0;rm -rf src/Migrations/Version20180319163238.php
+: 1521486547:0;sf doctrine:database:drop --force
+: 1521486550:0;sf doctrine:database:create
+: 1521486555:0;sf doctrine:migrations:diff
+: 1521486561:0;sf doctrine:migrations:migrate --no-interaction
+: 1521486942:0;rm -rf var/cache/*
+: 1521487546:0;sf doctrine:migrations:diff
+: 1521487558:0;chmod -R 777 var/cache var/log
+: 1521487649:0;ll
+: 1521487714:0;l
+: 1521487717:0;.ll
+: 1521487718:0;eit
+: 1521487718:0;exit
+: 1521488507:0;ls
+: 1521488851:0;sf doctrine:generate:entity AppBundle:Product
+: 1521488893:0;rm app/config/parameters.yml
+: 1521488896:0;composer install -vvv
+: 1521488903:0;sf doctrine:generate:entity AppBundle:Product
+: 1521489034:0;ls
+: 1521489035:0;ll
+: 1521489050:0;ls
+: 1521489062:0;eixt
+: 1521489063:0;exit
+: 1521489611:0;ls
+: 1521489623:0;chmod -R 777 var/cache var/log
+: 1521489625:0;ls
+: 1521489634:0;ls v
+: 1521489639:0;exit
+: 1521489696:0;l
+: 1521489708:0;chmod -R 777 var/cache var/logs
+: 1521489737:0;chmod -R 777 var/cache var/logs var/sessions
+: 1521490395:0;sfcl ; sfcle
+: 1521490408:0;sfcl -e=prod
+: 1521490413:0;sfcl --env=prod
+: 1521490430:0;chmod -R 777 var/cache var/logs var/sessions
