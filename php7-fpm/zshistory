@@ -157,3 +157,42 @@
 : 1521490408:0;sfcl -e=prod
 : 1521490413:0;sfcl --env=prod
 : 1521490430:0;chmod -R 777 var/cache var/logs var/sessions
+: 1521490895:0;cd 
+: 1521490896:0;cd .zprezto
+: 1521490899:0;pull
+: 1521490903:0;zsh
+: 1521490906:0;cd -
+: 1521490907:0;cd 
+: 1521490911:0;cd /var/www/symfony
+: 1521490912:0;ls
+: 1521490913:0;ll
+: 1521490959:0;ls script
+: 1521490962:0;ne script/genDb
+: 1521490975:0;./script/genDb
+: 1521491648:0;chmod -R 777 var/cache var/logs var/sessions
+: 1521491807:0;composer require vich/uploader-bundle
+: 1521491882:0;composer install -vvv
+: 1521491888:0;rm -rf composer.lock
+: 1521491890:0;composer install -vvv
+: 1521491980:0;ls vendor
+: 1521491985:0;ls vendor/vich
+: 1521492204:0;chmod -R 777 var/cache var/logs var/sessions
+: 1521492234:0;md web/uploads
+: 1521492238:0;chmod -R 777 var/cache var/logs var/sessions web/uploads
+: 1521492252:0;sf doctrine:database:drop
+: 1521492254:0;sf doctrine:database:drop --force
+: 1521492258:0;./script/genDb
+: 1521492551:0;sfcl ; sfcl --env=prod
+: 1521492561:0;chmod -R 777 var/cache var/logs var/sessions web/uploads
+: 1521493077:0;./script/genDb
+: 1521493725:0;exit
+: 1521493726:0;gs
+: 1521493728:0;exit
+: 1521649462:0;ll
+: 1521649463:0;ls
+: 1521649467:0;./script/genDb
+: 1521649495:0;rm -rf var/cache/*
+: 1521650859:0;ll
+: 1521651649:0;./script/genDb
+: 1521652001:0;ll
+: 1521656180:0;exit
