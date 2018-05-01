@@ -46,3 +46,120 @@
 : 1521036264:0;sf app:kartokloud:update 
 : 1521036278:0;./script/genDb
 : 1521043166:0;exit
+: 1524481140:0;composer install -vvv
+: 1524481145:0;./script/genDb
+: 1524481155:0;cat script/e
+: 1524481157:0;cat script/genDb
+: 1524481173:0;./script/genDb
+: 1524481435:0;ll
+: 1524481443:0;less README.md
+: 1524481446:0;ll
+: 1524481450:0;less LICENSE
+: 1524481452:0;ll
+: 1524481453:0;cat T
+: 1524481455:0;cat TODO.md
+: 1524481467:0;ll
+: 1524481955:0;sf debug:router
+: 1524483886:0;composer req cors
+: 1524484032:0;chmod -R 777 var/cache var/log
+: 1524484102:0;sfcl
+: 1524484108:0;chmod -R 777 var/cache var/log
+: 1524484218:0;sfcl 
+: 1524484220:0;chmod -R 777 var/cache var/log
+: 1524484366:0;tail -n app/logs/dev.log
+: 1524484372:0;tail -n5 app/logs/dev.log
+: 1524484377:0;cd app/logs
+: 1524484377:0;l
+: 1524484384:0;less +F dev.log
+: 1524484902:0;sfcl ; chmod -R 777 var/cache var/log
+: 1524484906:0;..
+: 1524484909:0;sfcl ; chmod -R 777 var/cache var/log
+: 1524485970:0;ls
+: 1524485977:0;rm -rf app
+: 1524485978:0;ll
+: 1524486290:0;sf debug:router
+: 1524487803:0;sf debug:container
+: 1524488372:0;./script/genDb
+: 1524492401:0;sf debug:router
+: 1524492860:0;./script/genDb
+: 1524493934:0;sf debug:router
+: 1524494625:0;exit
+: 1524574752:0;rm -rf vendor/* composer.lock
+: 1524574757:0;composer install -vvv
+: 1524575618:0;exot
+: 1524575620:0;exit
+: 1524578615:0;ll
+: 1524578751:0;./phpunit.phar
+: 1524579191:0;sf debug:router
+: 1524579369:0;./phpunit.phar
+: 1524579546:0;./phpunit.phar -vvv
+: 1524579707:0;./phpunit.phar -vvv --debug
+: 1524579789:0;./phpunit.phar -vvv
+: 1524579839:0;./phpunit.phar -vvv --debug
+: 1524579935:0;ls vendor
+: 1524579942:0;./phpunit.phar -vvv --debug
+: 1524580187:0;composer req browserkit
+: 1524580334:0;./phpunit.phar -vvv --debug
+: 1524580597:0;./phpunit.phar -vvv --debug 
+: 1524580875:0;./phpunit.phar -vvv --debug  --filter="APIControlerTest"
+: 1524580882:0;./phpunit.phar -vvv --debug  --filter="APIController"
+: 1524581125:0;chmod -R 777 var/cache var/log
+: 1524581127:0;chmod -R 777 var/cache var/logs
+: 1524581129:0;cd v
+: 1524581129:0;l
+: 1524581130:0;cd var
+: 1524581130:0;l
+: 1524581132:0;ls log
+: 1524581133:0;ls logs
+: 1524581136:0;rm -rf logs
+: 1524581139:0;rm -rf log
+: 1524581140:0;ll
+: 1524581143:0;..
+: 1524581150:0;md log
+: 1524581154:0;..
+: 1524581156:0;cd -
+: 1524581158:0;chmod -R 777 var/
+: 1524581285:0;./phpunit.phar -vvv --debug  --filter="APIController"
+: 1524581844:0;php phpunit.phar
+: 1524581892:0;exit
+: 1524605081:0;./script/genDb
+: 1524605105:0;cat script/genDb
+: 1524605110:0;sf app:kartokloud:update 
+: 1524642078:0;sf app:kartokloud:sync alicloud
+: 1524643181:0;./script/genDb
+: 1524643189:0;cat script/genDb l
+: 1524643197:0;sf app:kartokloud:update
+: 1524643214:0;exit
+: 1524643279:0;sf app:kartokloud:update
+: 1524643523:0;sf app:kartokloud:sync alicloud
+: 1524644550:0;sf app:kartokloud:sync alicloud -vvv
+: 1524644826:0;./script/genDb ; sf app:kartokloud:update ; sf app:kartokloud:sync alicloud
+: 1524644971:0;./script/genDb ; 
+: 1524645038:0;./script/genDb ; sf app:kartokloud:update 
+: 1524645132:0;sf app:kartokloud:sync alicloud 
+: 1524646726:0;./script/genDb ; sf app:kartokloud:update ; sf app:kartokloud:sync alicloud
+: 1524646801:0;sf app:kartokloud:sync alicloud
+: 1524647298:0;./script/genDb ; sf app:kartokloud:update ; sf app:kartokloud:sync alicloud
+: 1524648458:0;sf app:kartokloud:sync Azure
+: 1524649721:0;ls
+: 1524649756:0;./script/genDb ; sf app:kartokloud:update ; sf app:kartokloud:sync alicloud
+: 1524651122:0;./script/genDb
+: 1524651823:0;./script/genDb ; sf app:kartokloud:update 
+: 1524652090:0;sf app:kartokloud:update 
+: 1524652402:0;sf app:kartokloud:sync digitalocean
+: 1524652440:0;sf app:kartokloud:sync googlecloud
+: 1524652452:0;sf app:kartokloud:sync alicloud
+: 1524652466:0;exit
+: 1524655965:0;./script/genDb ; 
+: 1524655979:0;sf app:kartokloud:update
+: 1524656702:0;sf app:kartokloud:sync alicloud
+: 1524656708:0;sf app:kartokloud:sync googlecloud
+: 1524660244:0;sf app:kartokloud:update
+: 1524660330:0;sf app:kartokloud:sync
+: 1524660403:0;sf app:kartokloud:sync --vvv
+: 1524660412:0;sf app:kartokloud:sync -vvv
+: 1524660967:0;exit
+: 1524660990:0;./script/genDb 
+: 1524661495:0;./script/genDb l
+: 1524661898:0;./script/genDb
+: 1524664745:0;exit
